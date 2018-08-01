@@ -208,7 +208,7 @@ function onMapError(error) {
             var data_absen = JSON.parse(retrievedObject);
             var app = new Framework7();
             var bulan = data_absen.bulan + 1;
-            app.request.json('http://192.168.100.77:8888/phpAjax/upload.php', {
+            app.request.json('http://192.168.100.78:80/phpAjax/upload.php', {
 
             email: data_absen.email,
             name: data_absen.name,
