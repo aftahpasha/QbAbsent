@@ -1,0 +1,4 @@
+#Thu Jul 19 12:01:19 WIB 2018
+base.0=/Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/build/intermediates/transforms/dexMerger/debug/20
+path.0=classes.dex
+renamed.0=classes.dex

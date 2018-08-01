@@ -1,0 +1,59 @@
+{
+    "name": "com.qb.absent",
+    "displayName": "QbAbsent",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "com.pylonproducts.wifiwizard": "~0.2.11",
+        "cordova-android": "^7.1.1",
+        "cordova-browser": "^5.0.3",
+        "cordova-ios": "^4.5.4",
+        "cordova-osx": "^4.0.1",
+        "cordova-plugin-android-wifi-manager": "^1.2.0",
+        "cordova-plugin-background-mode": "^0.7.2",
+        "cordova-plugin-badge": "^0.8.7",
+        "cordova-plugin-customurlscheme": "^4.3.0",
+        "cordova-plugin-device": "^2.0.2",
+        "cordova-plugin-geolocation": "^4.0.1",
+        "cordova-plugin-googleplus": "^5.3.0",
+        "cordova-plugin-local-notification": "^0.9.0-beta.2",
+        "cordova-plugin-vibration": "^3.1.0",
+        "cordova-plugin-whitelist": "^1.3.3",
+        "cordova-universal-links-plugin": "^1.2.1",
+        "cordova-windows": "^5.0.0",
+        "firebase": "^5.2.0",
+        "wifiwizard": "^0.2.11"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-geolocation": {},
+            "cordova-plugin-customurlscheme": {
+                "URL_SCHEME": "com.firebase.cordova",
+                "ANDROID_SCHEME": " ",
+                "ANDROID_HOST": " ",
+                "ANDROID_PATHPREFIX": "/"
+            },
+            "cordova-plugin-googleplus": {
+                "REVERSED_CLIENT_ID": "com.googleusercontent.apps.363809405390-habsbn6igl1n8do6gubackj82r56rfbk",
+                "WEB_APPLICATION_CLIENT_ID": "363809405390-habsbn6igl1n8do6gubackj82r56rfbk.apps.googleusercontent.com"
+            },
+            "cordova-universal-links-plugin": {},
+            "cordova-plugin-vibration": {},
+            "cordova-plugin-background-mode": {},
+            "com.pylonproducts.wifiwizard": {},
+            "cordova-plugin-local-notification": {},
+            "cordova-plugin-android-wifi-manager": {}
+        },
+        "platforms": [
+            "ios",
+            "android"
+        ]
+    }
+}
