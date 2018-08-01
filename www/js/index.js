@@ -1,7 +1,9 @@
 var date = new Date();
 $$(window).on("load", function(){
     var n = date.getDay();
-    if (n != 6 || 7) {
+    var sun = 0;
+    var sat = 6;
+    if (n != sat &&  n != sun) {
       cordova.plugins.notification.local.schedule({
         title: 'Perhatian!',
         text: 'Aplikasi ini membutuhkan koneksi GPS, Pastikan anda telah menyalakan GPS di Ponsel Anda',
