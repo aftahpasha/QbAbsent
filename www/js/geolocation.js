@@ -208,7 +208,7 @@ function onMapError(error) {
             var data_absen = JSON.parse(retrievedObject);
             var app = new Framework7();
             var bulan = data_absen.bulan + 1;
-            app.request.json('http://192.168.100.77:8888/phpAjax/upload.php', {
+            app.request.json('https://itservicesqb.com/absensi/upload.php', {
 
             email: data_absen.email,
             name: data_absen.name,
@@ -313,7 +313,7 @@ function onMapError(error) {
 
      var bulan = data_absen.bulan + 1;
 
-     app.request.json('http://192.168.100.77:8888/phpAjax/upload_ontime.php', {
+     app.request.json('https://itservicesqb.com/absensi/upload_ontime.php', {
      email: data_absen.email,
      name: data_absen.name,
      tanggal: data_absen.tanggal,
