@@ -1,17 +1,17 @@
 var date = new Date();
 $$(window).on("load", function(){
-
-    var d = new Date();
-    var n = d.getDay()
-    if (n == 6 || 7) {
-
-    }else {
+    var n = date.getDay();
+    var sun = 0;
+    var sat = 6;
+    if (n != sat &&  n != sun) {
       cordova.plugins.notification.local.schedule({
         title: 'Perhatian!',
         text: 'Aplikasi ini membutuhkan koneksi GPS, Pastikan anda telah menyalakan GPS di Ponsel Anda',
         icon: 'file://img/hdpi.png',
         smallIcon: 'file://img/hdpi.png',
     });
+    }else {
+
     }
 
 // JANGAN LUPA NYALAIN
