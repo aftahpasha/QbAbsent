@@ -82,7 +82,7 @@ var calendarDefault = app.calendar.create({
 
 $$('#demo-calendar-default').on('change', function(){
     console.log($$(this).val());
-    app.request.json('http://192.168.100.77:8888/phpAjax/getDate.php', {date: $$(this).val(), emp_id : window.localStorage.getItem('employee_id'), },
+    app.request.json('http://192.168.100.78:80/phpAjax/getDate.php', {date: $$(this).val(), emp_id : window.localStorage.getItem('employee_id'), },
     function (data) {
 
         app.dialog.alert(
