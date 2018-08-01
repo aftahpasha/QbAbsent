@@ -1,0 +1,17 @@
+<script type="text/javascript">
+return {
+  methods: {
+    function () {
+      var auth = firebase.auth();
+      auth.signOut().then(function() {
+        console.log("anda telah Logout");
+      }).catch(function(error) {
+        console.log(error);
+
+        });
+      })
+    }
+  }
+}
+
+</script>

@@ -1,0 +1,412 @@
+-- Merging decision tree log ---
+provider#de.appplant.cordova.plugin.notification.util.AssetProvider
+INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:25:9-27:20
+	android:grantUriPermissions
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:25:92-126
+	android:authorities
+		INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:25:19-66
+	android:exported
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:25:67-91
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:25:127-200
+manifest
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:2:1-52:12
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.8.0.aar/80af229a6f4437a06fe45a39b0e537f7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/d5a67f628adc429d4dbaf89ba433a183/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/f2afd31cab90bc53c31ebebf6f511ba6/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/f91a7de27fcee9f3c3ef6ae7968f4721/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/09451a770d8fa21737c4c939940ed26c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/83d3d226f80e694f162ae2146826be2f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4e6350e774000d496f1d5138dccc78f7/AndroidManifest.xml:17:1-31:12
+MERGED from [:CordovaLib] /Users/myssd/Documents/cordova/QbAbsent/platforms/android/CordovaLib/build/intermediates/manifests/full/release/AndroidManifest.xml:20:1-27:12
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.8.0.aar/58ac29068cea686c18ae46888d980013/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e2db48f7c67e78cbbe50206f274090d5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b83afc801b871599899f9e920f26f3d4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f5917c1271394c0bb5b52117c6628ebf/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d293b16bc0df05009df36b14b85988ad/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fce4b8f8b97003a170b22acc139a30fe/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/9250385a1417d03a368c530367c46461/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/52e106ee1728361a7ec368267a40915b/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/6d6dafe8307ab83c03df2a3ebf9ff9cf/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/37870e3fbd840f71b7586198e3e61e45/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/3da3b561e638b79ad2d539d304770ba6/AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6e7f7263406c2ffcf20f36b7aa1e0bcd/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:2:102-125
+		INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:2:74-101
+		INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:2:126-184
+	android:versionCode
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:2:46-73
+		INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:5:5-31:19
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.8.0.aar/80af229a6f4437a06fe45a39b0e537f7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.8.0.aar/80af229a6f4437a06fe45a39b0e537f7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/f91a7de27fcee9f3c3ef6ae7968f4721/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/f91a7de27fcee9f3c3ef6ae7968f4721/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/09451a770d8fa21737c4c939940ed26c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/09451a770d8fa21737c4c939940ed26c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/83d3d226f80e694f162ae2146826be2f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/83d3d226f80e694f162ae2146826be2f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4e6350e774000d496f1d5138dccc78f7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4e6350e774000d496f1d5138dccc78f7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.8.0.aar/58ac29068cea686c18ae46888d980013/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.8.0.aar/58ac29068cea686c18ae46888d980013/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e2db48f7c67e78cbbe50206f274090d5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e2db48f7c67e78cbbe50206f274090d5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b83afc801b871599899f9e920f26f3d4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b83afc801b871599899f9e920f26f3d4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f5917c1271394c0bb5b52117c6628ebf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f5917c1271394c0bb5b52117c6628ebf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d293b16bc0df05009df36b14b85988ad/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d293b16bc0df05009df36b14b85988ad/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fce4b8f8b97003a170b22acc139a30fe/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fce4b8f8b97003a170b22acc139a30fe/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/9250385a1417d03a368c530367c46461/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/9250385a1417d03a368c530367c46461/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/52e106ee1728361a7ec368267a40915b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/52e106ee1728361a7ec368267a40915b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/6d6dafe8307ab83c03df2a3ebf9ff9cf/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/6d6dafe8307ab83c03df2a3ebf9ff9cf/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/37870e3fbd840f71b7586198e3e61e45/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/37870e3fbd840f71b7586198e3e61e45/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/3da3b561e638b79ad2d539d304770ba6/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/3da3b561e638b79ad2d539d304770ba6/AndroidManifest.xml:5:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6e7f7263406c2ffcf20f36b7aa1e0bcd/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6e7f7263406c2ffcf20f36b7aa1e0bcd/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+activity#com.qb.absent.MainActivity
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:6:9-23:20
+	android:label
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:6:135-166
+	android:windowSoftInputMode
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:6:258-300
+	android:configChanges
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:6:195-257
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:6:167-194
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:11:13-16:29
+action#android.intent.action.VIEW
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:12:17-69
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:12:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:13:17-76
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:13:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:14:17-78
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:14:27-75
+data
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:15:17-63
+	android:host
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:21:23-39
+	android:scheme
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:15:23-60
+	android:pathPrefix
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:21:40-62
+service#de.appplant.cordova.plugin.background.ForegroundService
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:24:9-91
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:24:18-88
+receiver#de.appplant.cordova.plugin.localnotification.TriggerReceiver
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:28:9-122
+	android:exported
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:28:19-43
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:28:44-119
+receiver#de.appplant.cordova.plugin.localnotification.ClearReceiver
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:29:9-120
+	android:exported
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:29:19-43
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:29:44-117
+activity#de.appplant.cordova.plugin.localnotification.ClickReceiver
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:30:9-205
+	android:launchMode
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:30:44-79
+	android:exported
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:30:19-43
+	android:theme
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:30:154-202
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:30:80-153
+uses-sdk
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:32:5-74
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.8.0.aar/80af229a6f4437a06fe45a39b0e537f7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.8.0.aar/80af229a6f4437a06fe45a39b0e537f7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/d5a67f628adc429d4dbaf89ba433a183/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/d5a67f628adc429d4dbaf89ba433a183/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/f2afd31cab90bc53c31ebebf6f511ba6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/f2afd31cab90bc53c31ebebf6f511ba6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/f91a7de27fcee9f3c3ef6ae7968f4721/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/f91a7de27fcee9f3c3ef6ae7968f4721/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/09451a770d8fa21737c4c939940ed26c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/09451a770d8fa21737c4c939940ed26c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/83d3d226f80e694f162ae2146826be2f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/83d3d226f80e694f162ae2146826be2f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4e6350e774000d496f1d5138dccc78f7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4e6350e774000d496f1d5138dccc78f7/AndroidManifest.xml:21:5-23:54
+MERGED from [:CordovaLib] /Users/myssd/Documents/cordova/QbAbsent/platforms/android/CordovaLib/build/intermediates/manifests/full/release/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/myssd/Documents/cordova/QbAbsent/platforms/android/CordovaLib/build/intermediates/manifests/full/release/AndroidManifest.xml:25:5-44
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.8.0.aar/58ac29068cea686c18ae46888d980013/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.8.0.aar/58ac29068cea686c18ae46888d980013/AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e2db48f7c67e78cbbe50206f274090d5/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e2db48f7c67e78cbbe50206f274090d5/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b83afc801b871599899f9e920f26f3d4/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b83afc801b871599899f9e920f26f3d4/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f5917c1271394c0bb5b52117c6628ebf/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f5917c1271394c0bb5b52117c6628ebf/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d293b16bc0df05009df36b14b85988ad/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d293b16bc0df05009df36b14b85988ad/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fce4b8f8b97003a170b22acc139a30fe/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fce4b8f8b97003a170b22acc139a30fe/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/9250385a1417d03a368c530367c46461/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/9250385a1417d03a368c530367c46461/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/52e106ee1728361a7ec368267a40915b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/52e106ee1728361a7ec368267a40915b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/6d6dafe8307ab83c03df2a3ebf9ff9cf/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/6d6dafe8307ab83c03df2a3ebf9ff9cf/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/37870e3fbd840f71b7586198e3e61e45/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/37870e3fbd840f71b7586198e3e61e45/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/3da3b561e638b79ad2d539d304770ba6/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/3da3b561e638b79ad2d539d304770ba6/AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6e7f7263406c2ffcf20f36b7aa1e0bcd/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6e7f7263406c2ffcf20f36b7aa1e0bcd/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4e6350e774000d496f1d5138dccc78f7/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:32:42-71
+	android:minSdkVersion
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:32:15-41
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:33:5-76
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:33:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:34:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:35:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:36:5-73
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:36:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:37:5-68
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:37:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:38:5-79
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:38:22-76
+uses-feature#android.hardware.location.gps
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:39:5-66
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:39:19-63
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:40:5-71
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:40:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:41:5-74
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:41:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:42:5-66
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:42:22-63
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:26:13-134
+	android:resource
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:26:75-131
+	android:name
+		ADDED from /Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/AndroidManifest.xml:26:24-74
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/myssd/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/66a73734db8c7f188b8421bf47cf1137/AndroidManifest.xml:50:22-86
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/92544ac568b5d321984085c8fe8012ca/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/f91a7de27fcee9f3c3ef6ae7968f4721/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/f91a7de27fcee9f3c3ef6ae7968f4721/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/f91a7de27fcee9f3c3ef6ae7968f4721/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/f91a7de27fcee9f3c3ef6ae7968f4721/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/83d3d226f80e694f162ae2146826be2f/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/83d3d226f80e694f162ae2146826be2f/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/83d3d226f80e694f162ae2146826be2f/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4e6350e774000d496f1d5138dccc78f7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e2db48f7c67e78cbbe50206f274090d5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e2db48f7c67e78cbbe50206f274090d5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b83afc801b871599899f9e920f26f3d4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b83afc801b871599899f9e920f26f3d4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f5917c1271394c0bb5b52117c6628ebf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f5917c1271394c0bb5b52117c6628ebf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d293b16bc0df05009df36b14b85988ad/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d293b16bc0df05009df36b14b85988ad/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fce4b8f8b97003a170b22acc139a30fe/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fce4b8f8b97003a170b22acc139a30fe/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4e6350e774000d496f1d5138dccc78f7/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4e6350e774000d496f1d5138dccc78f7/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6e7f7263406c2ffcf20f36b7aa1e0bcd/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6e7f7263406c2ffcf20f36b7aa1e0bcd/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/myssd/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6e7f7263406c2ffcf20f36b7aa1e0bcd/AndroidManifest.xml:26:13-58

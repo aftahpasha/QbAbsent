@@ -1,0 +1,12 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Qb Attendance",
+  "short_name": "Qb Attendance",
+  "version": "com.qb.absent",
+  "description": "The Official Attendance app for Quantum Business",
+  "author": "Aftah A Pasha",
+  "icons": [],
+  "start_url": "index.html",
+  "theme_color": "#2196f3"
+}
