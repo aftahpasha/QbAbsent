@@ -3,6 +3,7 @@ var app = new Framework7();
 $$(".google-sign-in").on("click", signIn);
 
 function signIn(){
+  app.dialog.preloader();
   window.plugins.googleplus.isAvailable(
     function (available) {
       if (available) {
@@ -37,6 +38,7 @@ function signIn(){
               $$("#getPosition").removeClass("hidden");
 
             }
+            app.dialog.close();
             app.dialog.alert("Halo! " + obj.displayName + " Anda berhasil Login", "Berhasil Login!");
             window.localStorage.setItem("employee_id", data.employee_id);
             window.localStorage.setItem("userId", obj.userId);
@@ -57,6 +59,7 @@ function signIn(){
             }
 
           }else {
+            app.dialog.close
             app.dialog.alert("anda Belum Terdaftar","Gagal");
             $$("#logout").addClass("hidden");
           }
@@ -64,8 +67,10 @@ function signIn(){
         }
 
         function onError(Error){
+          app.dialog.close
           window.plugins.googleplus.logout(
             function (msg) {
+              app.dialog.close();
               app.dialog.alert("Anda Kendala di Server", "Gagal");
             })
         }

@@ -59,6 +59,7 @@ function signIn(){
             }
 
           }else {
+            app.dialog.close
             app.dialog.alert("anda Belum Terdaftar","Gagal");
             $$("#logout").addClass("hidden");
           }
@@ -66,6 +67,7 @@ function signIn(){
         }
 
         function onError(Error){
+          app.dialog.close
           window.plugins.googleplus.logout(
             function (msg) {
               app.dialog.close();
