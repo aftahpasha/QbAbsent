@@ -19,7 +19,6 @@ function notify(){
 
     if (day_work) {
       notify();
-      app.dialog.alert(date_now);
     }else {
 
     }
