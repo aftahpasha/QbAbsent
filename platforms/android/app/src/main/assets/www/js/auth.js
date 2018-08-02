@@ -57,7 +57,7 @@ function signIn(){
             }
 
           }else {
-            app.dialog.alert("anda Belum Terdaftar","Error");
+            app.dialog.alert("anda Belum Terdaftar","Gagal");
             $$("#logout").addClass("hidden");
           }
 
@@ -66,7 +66,7 @@ function signIn(){
         function onError(Error){
           window.plugins.googleplus.logout(
             function (msg) {
-              app.dialog.alert("Anda Belum Terdaftar", "Error");
+              app.dialog.alert("Anda Kendala di Server", "Gagal");
             })
         }
 

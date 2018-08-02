@@ -145,7 +145,7 @@ window.navigator.geolocation.getCurrentPosition(function(pos) {
 }, onMapError, {maximumAge:360, timeout:5000});
 function onMapError(error) {
     app.dialog.close();
-    app.dialog.alert("Pastikan Anda Menyalakan GPS dan Berada dalam Lokasi QB", "Error");
+    app.dialog.alert("Pastikan Anda Menyalakan GPS dan Berada dalam Lokasi QB", " ");
    }
  }
 
@@ -256,13 +256,13 @@ function onMapError(error) {
 
   function onMapError(error) {
       app.dialog.close();
-      app.dialog.alert("Pastikan Anda Menyalakan GPS dan Berada dalam Lokasi QB", "Error");
+      app.dialog.alert("Pastikan Anda Menyalakan GPS dan Berada dalam Lokasi QB", " ");
     }
 
 
  }else {
    app.dialog.close();
-   app.dialog.alert("User Tidak Ditemukan Silahkan Login", "Error");
+   app.dialog.alert("User Tidak Ditemukan Silahkan Login", " ");
  }
 
 }
@@ -356,10 +356,10 @@ function onMapError(error) {
 
  function onMapError(error) {
      app.dialog.close();
-     app.dialog.alert("Pastikan Anda Menyalakan GPS dan Berada dalam Lokasi QB", "Error");
+     app.dialog.alert("Pastikan Anda Menyalakan GPS dan Berada dalam Lokasi QB", " ");
    };
  }else {
-   app.dialog.alert("User Tidak Ditemukan Silahkan Login", "Error");
+   app.dialog.alert("User Tidak Ditemukan Silahkan Login", " ");
  }
 }
 
