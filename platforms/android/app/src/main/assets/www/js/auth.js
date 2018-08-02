@@ -11,7 +11,7 @@ function signIn(){
          // optional space-separated list of scopes, the default is sufficient for login and basic profile info
         // there is no API key for Android; you app is wired to the Google+ API by listing your package name in the google dev console and signing your apk (which you have done in chapter 4)
       },function (obj) {
-        app.request.json('http://192.168.100.77:8888/phpAjax/login.php'/*'https://itservicesqb.com/absensi/login.php'*/,{'email':obj.email},onSuccess,onError);
+        app.request.json('https://itservicesqb.com/absensi/login.php',{'email':obj.email},onSuccess,onError);
 
 
         function onSuccess(data){
@@ -57,7 +57,7 @@ function signIn(){
             }
 
           }else {
-            app.dialog.alert("anda Belum Terdaftar","Error");
+            app.dialog.alert("anda Belum Terdaftar","Gagal");
             $$("#logout").addClass("hidden");
           }
 
@@ -66,7 +66,7 @@ function signIn(){
         function onError(Error){
           window.plugins.googleplus.logout(
             function (msg) {
-              app.dialog.alert("Anda Belum Terdaftar", "Error");
+              app.dialog.alert("Anda Kendala di Server", "Gagal");
             })
         }
 

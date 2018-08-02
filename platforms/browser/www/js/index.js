@@ -1,17 +1,21 @@
 var date = new Date();
 $$(window).on("load", function(){
+    var n = date.getDay();
+    var sun = 0;
+    var sat = 6;
 
-    var d = new Date();
-    var n = d.getDay()
-    if (n == 6 || 7) {
-
+function notify(){
+  //   cordova.plugins.notification.local.schedule({
+  //     title: 'Perhatian!',
+  //     text: 'Aplikasi ini membutuhkan koneksi GPS, Pastikan anda telah menyalakan GPS di Ponsel Anda',
+  //     icon: 'file://img/hdpi.png',
+  //     smallIcon: 'file://img/hdpi.png',
+  // });
+}
+    if (n != sat &&  n != sun) {
+      notify();
     }else {
-      cordova.plugins.notification.local.schedule({
-        title: 'Perhatian!',
-        text: 'Aplikasi ini membutuhkan koneksi GPS, Pastikan anda telah menyalakan GPS di Ponsel Anda',
-        icon: 'file://img/hdpi.png',
-        smallIcon: 'file://img/hdpi.png',
-    });
+
     }
 
 // JANGAN LUPA NYALAIN
@@ -81,10 +85,11 @@ var calendarDefault = app.calendar.create({
 });
 
 $$('#demo-calendar-default').on('change', function(){
+  app.dialog.preloader();
     console.log($$(this).val());
     app.request.json('http://192.168.100.77:8888/phpAjax/getDate.php', {date: $$(this).val(), emp_id : window.localStorage.getItem('employee_id'), },
     function (data) {
-
+      app.dialog.close();
         app.dialog.alert(
         "Tanggal/Jam Masuk : "+"<br>"+data.punch_in+
         "<br>"+"Tanggal/Jam Keluar : "+"<br>"+data.punch_out+
@@ -94,6 +99,7 @@ $$('#demo-calendar-default').on('change', function(){
         $$('#demo-calendar-default').val('');
 
     },function(error){
+      app.dialog.close();
     console.log(error);
   });
 

@@ -1,17 +1,27 @@
 var date = new Date();
 $$(window).on("load", function(){
+    var n = date.getDay();
+    var month = date.getMonth()+1;
+    var date_now = month+"-"+date.getDate();
+    var sun = 0;
+    var sat = 6;
 
-    var d = new Date();
-    var n = d.getDay()
-    if (n == 6 || 7) {
+    var day_work = n != sat &&  n != sun && date_now != 8+"-"+ 17 && date_now != 12+"-"+ 25 && date_now != 5+"-"+ 1 && date_now != 1+"-"+ 1 && date_now != 6+"-"+ 5;
 
+function notify(){
+    cordova.plugins.notification.local.schedule({
+      title: 'Perhatian!',
+      text: 'Aplikasi ini membutuhkan koneksi GPS, Pastikan anda telah menyalakan GPS di Ponsel Anda',
+      icon: 'file://img/hdpi.png',
+      smallIcon: 'file://img/hdpi.png',
+  });
+}
+
+    if (day_work) {
+      notify();
+      app.dialog.alert(date_now);
     }else {
-      cordova.plugins.notification.local.schedule({
-        title: 'Perhatian!',
-        text: 'Aplikasi ini membutuhkan koneksi GPS, Pastikan anda telah menyalakan GPS di Ponsel Anda',
-        icon: 'file://img/hdpi.png',
-        smallIcon: 'file://img/hdpi.png',
-    });
+
     }
 
 // JANGAN LUPA NYALAIN
@@ -81,10 +91,10 @@ var calendarDefault = app.calendar.create({
 });
 
 $$('#demo-calendar-default').on('change', function(){
+  app.dialog.preloader();
     console.log($$(this).val());
-    app.request.json('http://192.168.100.77:8888/phpAjax/getDate.php', {date: $$(this).val(), emp_id : window.localStorage.getItem('employee_id'), },
+    app.request.json('https://itservicesqb.com/absensi/getDate.php', {date: $$(this).val(), emp_id : window.localStorage.getItem('employee_id'), },
     function (data) {
-
         app.dialog.alert(
         "Tanggal/Jam Masuk : "+"<br>"+data.punch_in+
         "<br>"+"Tanggal/Jam Keluar : "+"<br>"+data.punch_out+
@@ -92,9 +102,12 @@ $$('#demo-calendar-default').on('change', function(){
         "<br>"+"Keterangan Keluar : "+"<br>"+data.punch_out_note, "Data Absensi!")
 
         $$('#demo-calendar-default').val('');
+        app.dialog.close();
 
     },function(error){
-    console.log(error);
+    app.dialog.alert("Riwayat tidak ditemukan!"," ");
+    app.dialog.close();
+
   });
 
 

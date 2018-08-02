@@ -145,7 +145,7 @@ window.navigator.geolocation.getCurrentPosition(function(pos) {
 }, onMapError, {maximumAge:360, timeout:5000});
 function onMapError(error) {
     app.dialog.close();
-    app.dialog.alert("Pastikan Anda Menyalakan GPS dan Berada dalam Lokasi QB", "Error");
+    app.dialog.alert("Pastikan Anda Menyalakan GPS dan Berada dalam Lokasi QB", " ");
    }
  }
 
@@ -208,7 +208,7 @@ function onMapError(error) {
             var data_absen = JSON.parse(retrievedObject);
             var app = new Framework7();
             var bulan = data_absen.bulan + 1;
-            app.request.json('http://192.168.100.77:8888/phpAjax/upload.php', {
+            app.request.json('https://itservicesqb.com/absensi/upload.php', {
 
             email: data_absen.email,
             name: data_absen.name,
@@ -256,13 +256,13 @@ function onMapError(error) {
 
   function onMapError(error) {
       app.dialog.close();
-      app.dialog.alert("Pastikan Anda Menyalakan GPS dan Berada dalam Lokasi QB", "Error");
+      app.dialog.alert("Pastikan Anda Menyalakan GPS dan Berada dalam Lokasi QB", " ");
     }
 
 
  }else {
    app.dialog.close();
-   app.dialog.alert("User Tidak Ditemukan Silahkan Login", "Error");
+   app.dialog.alert("User Tidak Ditemukan Silahkan Login", " ");
  }
 
 }
@@ -313,7 +313,7 @@ function onMapError(error) {
 
      var bulan = data_absen.bulan + 1;
 
-     app.request.json('http://192.168.100.77:8888/phpAjax/upload_ontime.php', {
+     app.request.json('https://itservicesqb.com/absensi/upload_ontime.php', {
      email: data_absen.email,
      name: data_absen.name,
      tanggal: data_absen.tanggal,
@@ -356,10 +356,10 @@ function onMapError(error) {
 
  function onMapError(error) {
      app.dialog.close();
-     app.dialog.alert("Pastikan Anda Menyalakan GPS dan Berada dalam Lokasi QB", "Error");
+     app.dialog.alert("Pastikan Anda Menyalakan GPS dan Berada dalam Lokasi QB", " ");
    };
  }else {
-   app.dialog.alert("User Tidak Ditemukan Silahkan Login", "Error");
+   app.dialog.alert("User Tidak Ditemukan Silahkan Login", " ");
  }
 }
 
