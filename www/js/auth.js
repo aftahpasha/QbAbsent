@@ -25,12 +25,12 @@ function signIn(){
                 app.dialog.alert("Sudah Jam Pulang", "Sudah Waktu Pulang");
                 $$("#AbsenPulang").removeClass("hidden");
                 $$("#AbsenKeluar").addClass("hidden");
-                cordova.plugins.notification.local.schedule({
-                  title: 'Sudah Absen Belum??',
-                  text: 'Sudah Waktu Pulang ayo absen!',
-                  attachments: ['file://../img/QB.png'],
-
-              });
+              //   cordova.plugins.notification.local.schedule({
+              //     title: 'Sudah Absen Belum??',
+              //     text: 'Sudah Waktu Pulang ayo absen!',
+              //     attachments: ['file://../img/QB.png'],
+              //
+              // });
               }else{
                 $$("#AbsenKeluar").removeClass("hidden");
               };

@@ -3,6 +3,7 @@ var app = new Framework7();
 $$(".google-sign-in").on("click", signIn);
 
 function signIn(){
+  app.dialog.preloader();
   window.plugins.googleplus.isAvailable(
     function (available) {
       if (available) {
@@ -24,12 +25,12 @@ function signIn(){
                 app.dialog.alert("Sudah Jam Pulang", "Sudah Waktu Pulang");
                 $$("#AbsenPulang").removeClass("hidden");
                 $$("#AbsenKeluar").addClass("hidden");
-                cordova.plugins.notification.local.schedule({
-                  title: 'Sudah Absen Belum??',
-                  text: 'Sudah Waktu Pulang ayo absen!',
-                  attachments: ['file://../img/QB.png'],
-
-              });
+              //   cordova.plugins.notification.local.schedule({
+              //     title: 'Sudah Absen Belum??',
+              //     text: 'Sudah Waktu Pulang ayo absen!',
+              //     attachments: ['file://../img/QB.png'],
+              //
+              // });
               }else{
                 $$("#AbsenKeluar").removeClass("hidden");
               };
@@ -37,6 +38,7 @@ function signIn(){
               $$("#getPosition").removeClass("hidden");
 
             }
+            app.dialog.close();
             app.dialog.alert("Halo! " + obj.displayName + " Anda berhasil Login", "Berhasil Login!");
             window.localStorage.setItem("employee_id", data.employee_id);
             window.localStorage.setItem("userId", obj.userId);
@@ -57,16 +59,18 @@ function signIn(){
             }
 
           }else {
-            app.dialog.alert("anda Belum Terdaftar","Error");
+            app.dialog.close
+            app.dialog.alert("anda Belum Terdaftar","Gagal");
             $$("#logout").addClass("hidden");
           }
 
         }
 
         function onError(Error){
+          app.dialog.close
           window.plugins.googleplus.logout(
             function (msg) {
-              app.dialog.alert("Anda Belum Terdaftar", "Error");
+              app.dialog.alert("Anda Kendala di Server", "Gagal");
             })
         }
 

@@ -9,12 +9,12 @@ $$(window).on("load", function(){
     var day_work = n != sat &&  n != sun && date_now != 8+"-"+ 17 && date_now != 12+"-"+ 25 && date_now != 5+"-"+ 1 && date_now != 1+"-"+ 1 && date_now != 6+"-"+ 5;
 
 function notify(){
-    cordova.plugins.notification.local.schedule({
-      title: 'Perhatian!',
-      text: 'Aplikasi ini membutuhkan koneksi GPS, Pastikan anda telah menyalakan GPS di Ponsel Anda',
-      icon: 'file://img/hdpi.png',
-      smallIcon: 'file://img/hdpi.png',
-  });
+  //   cordova.plugins.notification.local.schedule({
+  //     title: 'Perhatian!',
+  //     text: 'Aplikasi ini membutuhkan koneksi GPS, Pastikan anda telah menyalakan GPS di Ponsel Anda',
+  //     icon: 'file://img/hdpi.png',
+  //     smallIcon: 'file://img/hdpi.png',
+  // });
 }
 
     if (day_work) {

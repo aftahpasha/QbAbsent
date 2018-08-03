@@ -245,7 +245,7 @@ function onMapError(error) {
             $$("#getPosition").removeClass("hidden");
             $$("#absenKeluar").addClass("hidden");
             $$("#absenPulang").addClass("hidden");
-            window.location.reload();
+            // window.location.reload();
           });
       });
 
