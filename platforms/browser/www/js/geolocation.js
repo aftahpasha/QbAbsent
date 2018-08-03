@@ -245,7 +245,9 @@ function onMapError(error) {
             $$("#getPosition").removeClass("hidden");
             $$("#absenKeluar").addClass("hidden");
             $$("#absenPulang").addClass("hidden");
-            window.location.reload();
+            $$("#ind_jam_datang").addClass("hidden");
+
+            // window.location.reload();
           });
       });
 
@@ -347,7 +349,9 @@ function onMapError(error) {
  $$("#getPosition").removeClass("hidden");
  $$("#absenKeluar").addClass("hidden");
  $$("#absenPulang").addClass("hidden");
- window.location.reload();
+ $$("#ind_jam_datang").addClass("hidden");
+
+ // window.location.reload();
    });
  }else {
    app.dialog.alert("Anda Tidak Berada Dalam Lokasi QB!", "Gagal!")
