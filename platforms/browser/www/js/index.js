@@ -1,4 +1,5 @@
 var date = new Date();
+var host = "http://192.168.100.77:8888/phpAjax/";
 $$(window).on("load", function(){
     var n = date.getDay();
     var month = date.getMonth()+1;
@@ -92,7 +93,7 @@ var calendarDefault = app.calendar.create({
 $$('#demo-calendar-default').on('change', function(){
   app.dialog.preloader();
     console.log($$(this).val());
-    app.request.json('http://192.168.100.77:8888/phpAjax/getDate.php', {date: $$(this).val(), emp_id : window.localStorage.getItem('employee_id'), },
+    app.request.json(host+'getDate.php', {date: $$(this).val(), emp_id : window.localStorage.getItem('employee_id'), },
     function (data) {
         app.dialog.alert(
         "Tanggal/Jam Masuk : "+"<br>"+data.punch_in+

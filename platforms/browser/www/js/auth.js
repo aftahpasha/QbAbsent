@@ -1,4 +1,5 @@
 var app = new Framework7();
+var host = "http://192.168.100.77:8888/phpAjax/"
 
 $$(".google-sign-in").on("click", signIn);
 
@@ -12,7 +13,7 @@ function signIn(){
          // optional space-separated list of scopes, the default is sufficient for login and basic profile info
         // there is no API key for Android; you app is wired to the Google+ API by listing your package name in the google dev console and signing your apk (which you have done in chapter 4)
       },function (obj) {
-        app.request.json('http://192.168.100.77:8888/phpAjax/login.php'/*'https://itservicesqb.com/absensi/login.php'*/,{'email':obj.email},onSuccess,onError);
+        app.request.json(host+'login.php'/*'https://itservicesqb.com/absensi/login.php'*/,{'email':obj.email},onSuccess,onError);
 
 
         function onSuccess(data){
