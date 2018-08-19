@@ -1,18 +1,43 @@
 var date = new Date();
 $$(window).on("load", function(){
 
-    var d = new Date();
-    var n = d.getDay()
-    if (n == 6 || 7) {
 
-    }else {
-      cordova.plugins.notification.local.schedule({
-        title: 'Perhatian!',
-        text: 'Aplikasi ini membutuhkan koneksi GPS, Pastikan anda telah menyalakan GPS di Ponsel Anda',
-        icon: 'file://img/hdpi.png',
-        smallIcon: 'file://img/hdpi.png',
-    });
-    }
+  var n = date.getDay();
+  var date_now =0 + date.getMonth()+1+"-"+date.getDate();
+  var sun = 0;
+  var sat = 6;
+  var isday_off = false
+  var libur = [8 + "-" + 17,1 + "-" + 1, 5 + "-" + 1,6 + "-" + 1,12+ "-"+ 25];
+
+
+      function day_off(){
+
+
+        if (n != sat &&  n != sun) {
+          isday_off == true;
+        }else {
+          isday_off == false;
+        }
+
+        if (libur.some(date_now)) {
+          isday_off == true;
+        }
+      }
+
+
+if (isday_off == false) {
+//   cordova.plugins.notification.local.schedule({
+//     title: 'Perhatian!',
+//     text: 'Aplikasi ini membutuhkan koneksi GPS, Pastikan anda telah menyalakan GPS di Ponsel Anda',
+//     icon: 'file://img/hdpi.png',
+//     smallIcon: 'file://img/hdpi.png',
+// });
+app.dialog.alert(date_now);
+}else {
+
+}
+
+
 
 // JANGAN LUPA NYALAIN
 
@@ -47,13 +72,26 @@ $$(window).on("load", function(){
         app.dialog.alert("Sudah Jam Pulang", "Sudah Waktu Pulang");
         $$("#AbsenPulang").removeClass("hidden");
         $$("#AbsenKeluar").addClass("hidden");
-        cordova.plugins.notification.local.schedule({
-          title: 'Sudah Absen Belum??',
-          text: 'Sudah Waktu Pulang ayo absen!',
-          attachments: ['file://../img/QB.png'],
-        });
 
-      }else{
+
+
+        var n = date.getDay();
+        var sun = 0;
+        var sat = 6;
+        if (n != sat &&  n != sun) {
+          cordova.plugins.notification.local.schedule({
+            title: 'Sudah Absen Belum??',
+            text: 'Sudah Waktu Pulang ayo absen!',
+            attachments: ['file://../img/QB.png'],
+          });
+        }else {
+
+        }
+      }
+
+
+
+      else{
         $$("#AbsenKeluar").removeClass("hidden");
       };
     }else {

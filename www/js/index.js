@@ -1,18 +1,42 @@
 var date = new Date();
 $$(window).on("load", function(){
-    var n = date.getDay();
-    var sun = 0;
-    var sat = 6;
-    if (n != sat &&  n != sun) {
-      cordova.plugins.notification.local.schedule({
-        title: 'Perhatian!',
-        text: 'Aplikasi ini membutuhkan koneksi GPS, Pastikan anda telah menyalakan GPS di Ponsel Anda',
-        icon: 'file://img/hdpi.png',
-        smallIcon: 'file://img/hdpi.png',
-    });
-    }else {
 
-    }
+
+  var n = date.getDay();
+  var date_now = date.getMonth()+"-"+date.getDate();
+  var sun = 0;
+  var sat = 6;
+  var isday_off = false
+  var libur = ["08-17","01-01", "05-01","06-01","12-25"];
+
+
+      function day_off(){
+
+
+        if (n != sat &&  n != sun) {
+          isday_off == true;
+        }else {
+          isday_off == false;
+        }
+
+        if (libur.some(date_now)) {
+          isday_off == true;
+        }
+      }
+
+
+if (isday_off == false) {
+  cordova.plugins.notification.local.schedule({
+    title: 'Perhatian!',
+    text: 'Aplikasi ini membutuhkan koneksi GPS, Pastikan anda telah menyalakan GPS di Ponsel Anda',
+    icon: 'file://img/hdpi.png',
+    smallIcon: 'file://img/hdpi.png',
+});
+}else {
+
+}
+
+
 
 // JANGAN LUPA NYALAIN
 
