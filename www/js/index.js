@@ -1,5 +1,7 @@
 var date = new Date();
-var host = "http://192.168.100.77:8888/phpAjax/";
+// var host = "http://192.168.100.77:8888/phpAjax/";
+var host = "https://itservicesqb.com/absensi/";
+
 $$(window).on("load", function(){
     var n = date.getDay();
     var month = date.getMonth()+1;

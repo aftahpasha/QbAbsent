@@ -144,12 +144,12 @@
         "source": "/Users/myssd/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/f91a7de27fcee9f3c3ef6ae7968f4721/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
-        "merged": "/Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxxhdpi_screen.png.flat",
-        "source": "/Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/res/drawable-port-xxxhdpi/screen.png"
-    },
-    {
         "merged": "/Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_screen.png.flat",
         "source": "/Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/res/drawable-port-ldpi/screen.png"
+    },
+    {
+        "merged": "/Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxxhdpi_screen.png.flat",
+        "source": "/Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/src/main/res/drawable-port-xxxhdpi/screen.png"
     },
     {
         "merged": "/Users/myssd/Documents/cordova/QbAbsent/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",

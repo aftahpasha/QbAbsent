@@ -1,5 +1,6 @@
 var app = new Framework7();
-var host = "http://192.168.100.77:8888/phpAjax/"
+// var host = "http://192.168.100.77:8888/phpAjax/";
+var host = "https://itservicesqb.com/absensi/";
 
 $$(".google-sign-in").on("click", signIn);
 

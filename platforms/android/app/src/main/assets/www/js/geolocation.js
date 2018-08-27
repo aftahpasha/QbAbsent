@@ -2,6 +2,9 @@ var db = firebase.database();
 var app = new Framework7();
 var $$ = Dom7;
 
+// var host = "http://192.168.100.77:8888/phpAjax/"
+var host = "https://itservicesqb.com/absensi/";
+
   // $$('.open-preloader').on('click', function () {
   // app.dialog.preloader();
   // setTimeout(function () {
@@ -208,7 +211,7 @@ function onMapError(error) {
             var data_absen = JSON.parse(retrievedObject);
             var app = new Framework7();
             var bulan = data_absen.bulan + 1;
-            app.request.json('http://192.168.100.77:8888/phpAjax/upload.php', {
+            app.request.json(host+'upload.php', {
 
             email: data_absen.email,
             name: data_absen.name,
@@ -245,7 +248,9 @@ function onMapError(error) {
             $$("#getPosition").removeClass("hidden");
             $$("#absenKeluar").addClass("hidden");
             $$("#absenPulang").addClass("hidden");
-            window.location.reload();
+            $$("#ind_jam_datang").addClass("hidden");
+
+            // window.location.reload();
           });
       });
 
@@ -313,7 +318,7 @@ function onMapError(error) {
 
      var bulan = data_absen.bulan + 1;
 
-     app.request.json('http://192.168.100.77:8888/phpAjax/upload_ontime.php', {
+     app.request.json(host+'upload_ontime.php', {
      email: data_absen.email,
      name: data_absen.name,
      tanggal: data_absen.tanggal,
@@ -347,7 +352,9 @@ function onMapError(error) {
  $$("#getPosition").removeClass("hidden");
  $$("#absenKeluar").addClass("hidden");
  $$("#absenPulang").addClass("hidden");
- window.location.reload();
+ $$("#ind_jam_datang").addClass("hidden");
+
+ // window.location.reload();
    });
  }else {
    app.dialog.alert("Anda Tidak Berada Dalam Lokasi QB!", "Gagal!")
@@ -377,7 +384,7 @@ function onMapError(error) {
 
 
 
-     app.request.json('http://192.168.100.77:8888/phpAjax/upload.php', {
+     app.request.json(host+'upload.php', {
      email: data_absen.email,
      name: data_absen.name,
      tanggal: data_absen.tanggal,

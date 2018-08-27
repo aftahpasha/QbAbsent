@@ -2,7 +2,8 @@ var db = firebase.database();
 var app = new Framework7();
 var $$ = Dom7;
 
-var host = "http://192.168.100.77:8888/phpAjax/"
+// var host = "http://192.168.100.77:8888/phpAjax/"
+var host = "https://itservicesqb.com/absensi/";
 
   // $$('.open-preloader').on('click', function () {
   // app.dialog.preloader();
